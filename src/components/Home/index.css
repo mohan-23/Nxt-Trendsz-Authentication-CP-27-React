@@ -1,0 +1,46 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 40px;
+}
+
+.description-card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.shop-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 150px;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 8px;
+}
+
+.home-img {
+  height: 400px;
+  width: 400px;
+}
